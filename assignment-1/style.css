@@ -1,0 +1,198 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img.01.jpeg.png);
+  background-attachment: fixed;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* FLEX  */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* header */
+.header {
+  text-align: center;
+  padding: 32px 0;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+}
+
+/* primary section  */
+.box {
+  width: 30%;
+  height: 250px;
+  background-color: aliceblue;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.box1 {
+  background-color: #ff0248;
+}
+.box2 {
+  background: linear-gradient(90deg, black, #ff0248);
+}
+.box3 {
+  background: radial-gradient(#ff0248, black);
+}
+
+/* secondary section */
+.big-box {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 65px auto;
+  border-radius: 6px;
+  width: 1200px;
+  height: 350px;
+  background: linear-gradient(transparent, rgba(255, 2, 72, 0.5)),
+    url(img.01.jpeg.png) repeat;
+  background-color: white;
+}
