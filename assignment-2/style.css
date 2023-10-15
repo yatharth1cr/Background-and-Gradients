@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+body {
+  line-height: 1.5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #20222f;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 32px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.centre {
+  justify-content: center;
+  align-items: center;
+}
+.card-footer-down {
+  color: #d24259;
+  margin-right: 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+/* header  */
+.header {
+  padding: 40px 0;
+}
+.header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+.header h2 {
+  font-size: 18px;
+  color: #7f8cb2;
+}
+.btn-container {
+  color: #7f8cb2;
+}
+.btn {
+  background-color: #3ec59d;
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 16px;
+  padding-left: 3px;
+}
+.circle {
+  background-color: #20222f;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+/* CARDS ICON */
+.fa-square-facebook {
+  color: #188ff3;
+  margin-right: 8px;
+}
+.fa-twitter {
+  color: #349adc;
+}
+.fa-instagram {
+  background: linear-gradient(to right, #fac26f, #c75992);
+}
+.fa-youtube {
+  color: #a21233;
+}
+/*  CARDS  */
+.card-container {
+  padding: 60px 0;
+}
+.card {
+  background-color: #252c43;
+  padding: 28px;
+  text-align: center;
+  width: 18%;
+  color: #7f8cb2;
+  position: relative;
+  border-radius: 5px;
+}
+.card h3 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+}
+.card-body {
+  padding: 32px 0;
+}
+.card-body p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 4px;
+}
+.card-footer {
+  color: #5bb891;
+  margin-right: 5px;
+  font-size: 10px;
+  font-weight: 700;
+}
+.border-top {
+  width: 100%;
+  height: 5px;
+  background-color: #188ff5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-twitter .border-top {
+  background-color: #349adc;
+}
+.card-insta .border-top {
+  background: linear-gradient(to right, #fac26f, #c75992);
+}
+.card-youtube .border-top {
+  background-color: #a21233;
+}
+
+/* overview card */
+.overview .card-header {
+  margin-bottom: 20px;
+}
+.card.overview-card {
+  margin-bottom: 20px;
+}
+.overview h4 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+}
+.overview p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.overview h5 {
+  font-size: 36px;
+  color: white;
+  font-weight: 700;
+}
